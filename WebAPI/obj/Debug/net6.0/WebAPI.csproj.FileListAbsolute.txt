@@ -31,3 +31,4 @@ C:\Users\frane\RiderProjects\Assignment1-2\WebAPI\bin\Debug\net6.0\FileData.dll
 C:\Users\frane\RiderProjects\Assignment1-2\WebAPI\bin\Debug\net6.0\Application.pdb
 C:\Users\frane\RiderProjects\Assignment1-2\WebAPI\bin\Debug\net6.0\FileData.pdb
 C:\Users\frane\RiderProjects\Assignment1-2\WebAPI\bin\Debug\net6.0\Domain.pdb
+C:\Users\frane\RiderProjects\Assignment1-2\WebAPI\bin\Debug\net6.0\data.json
