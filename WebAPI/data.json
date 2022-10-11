@@ -26,5 +26,16 @@
       "Posts": null
     }
   ],
-  "Posts": []
+  "Posts": [
+    {
+      "Id": 1,
+      "owner": {
+        "Id": 1,
+        "UserName": "Franek",
+        "Posts": null
+      },
+      "Title": "Aita",
+      "Content": "Test content"
+    }
+  ]
 }

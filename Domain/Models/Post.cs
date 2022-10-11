@@ -7,9 +7,11 @@ public class Post
     public string Title {get;}
     public string Content {get;}
 
-    public Post(User owner, string title)
+    public Post(User owner, string title, string content)
     {
         this.owner = owner;
         Title = title;
+        Content = content;
+
     }
 }
