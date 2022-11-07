@@ -34,8 +34,8 @@
         "UserName": "Franek",
         "Posts": null
       },
-      "Title": "Aita",
-      "Content": "Test content"
+      "Title": "newTitle",
+      "Content": "newContentTest"
     }
   ]
 }
