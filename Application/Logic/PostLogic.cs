@@ -73,4 +73,16 @@ public class PostLogic : IPostLogic
         ValidatePost(updated);
         await postDao.UpdateAsync(updated);
     }
+    
+
+    public async Task DeleteAsync(int id)
+    {
+        Post? post = await postDao.GetByIdAsync(id);
+        if (post == null)
+        {
+            throw new Exception($"Post with ID {id} was not found");
+        }
+
+        await postDao.DeleteAsync(id);
+    }
 }
