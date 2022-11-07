@@ -31,3 +31,4 @@ C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\obj\Debug\net6.0\refi
 C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\obj\Debug\net6.0\WebApplication1.pdb
 C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\obj\Debug\net6.0\WebApplication1.genruntimeconfig.cache
 C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\obj\Debug\net6.0\ref\WebApplication1.dll
+C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\bin\Debug\net6.0\data.json
