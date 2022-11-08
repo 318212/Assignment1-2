@@ -832,3 +832,4 @@ C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\BlazorApp.
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\refint\BlazorApp.dll
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\BlazorApp.pdb
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\ref\BlazorApp.dll
+C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\ViewPosts.razor.rz.scp.css
