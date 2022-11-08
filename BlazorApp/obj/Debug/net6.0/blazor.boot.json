@@ -197,16 +197,16 @@
       "netstandard.dll": "sha256-HhuK9zDkd1N7hODAEiNJ11VF8T54IgrM6hZfLHmHdqM=",
       "System.Private.CoreLib.dll": "sha256-dXaTqyg1PnXPiSwywpic1PVrd7P8Vb5tN0i0\/urdt3E=",
       "Domain.dll": "sha256-oie\/QaLqNANal5e+S2628RB\/B8MuaJ87BaaSlqKj7ok=",
-      "HttpClients.dll": "sha256-47dEP4IqftcJXgmSIqwYifEW\/E+QwRsLAefG6++3d6E=",
-      "BlazorApp.dll": "sha256-zkwis0B5jJ4rNpiySXBLOKEQgkIjGPYHf8LOK\/ZmCo4="
+      "HttpClients.dll": "sha256-uueXoqc1CAvNYrpGrCzSqhR4X0JvA37GTjxPQQxLKNk=",
+      "BlazorApp.dll": "sha256-jtlHswZn7QH9o39w9GUUiH+WL19YuWmbW\/XP1ADqmgk="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "HttpClients.pdb": "sha256-o2Rgfeeuyo9lupDn+IDJx\/J\/Z6zsm6nNrxQ\/Hf0HI24=",
+      "HttpClients.pdb": "sha256-j+sDxbGlxDWn6ThYqUWXCCVh9j8N71Hi7GmaoeoHVds=",
       "Domain.pdb": "sha256-5MU9CK8xp2jJ62WkCoNbr0xm1xgWCS5Ynt1vR6V7xiY=",
-      "BlazorApp.pdb": "sha256-rra6MeJXbw\/NZNggwk7Frn3ANFxmCb5YLN2o3xDA2Q4="
+      "BlazorApp.pdb": "sha256-1B\/ZzlDAlRv8GFz9axKBS26QkKPW1HecF8W0lb944Fw="
     },
     "runtime": {
       "dotnet.6.0.8.0529k8r5jf.js": "sha256-WT60vnXnQtCNURE40qo+XSL1o4iYFvABy0NVaFhm7MI=",
