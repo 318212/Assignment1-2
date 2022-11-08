@@ -42,9 +42,17 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/frane/RiderProjects/Assignment1-2/BlazorApp/Pages/CreatePost.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlUG9zdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-h1oki55iil
+
 [C:/Users/frane/RiderProjects/Assignment1-2/BlazorApp/Pages/CreateUser.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlVXNlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-4nu5our0n5
+
+[C:/Users/frane/RiderProjects/Assignment1-2/BlazorApp/Pages/ViewUsers.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1VzZXJzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-5g1kjwnhtd
 
 [C:/Users/frane/RiderProjects/Assignment1-2/BlazorApp/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=

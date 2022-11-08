@@ -1,5 +1,6 @@
 C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\bin\Debug\net6.0\appsettings.json
+C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\bin\Debug\net6.0\data.json
 C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\bin\Debug\net6.0\WebApplication1.exe
 C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\bin\Debug\net6.0\WebApplication1.deps.json
 C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\bin\Debug\net6.0\WebApplication1.runtimeconfig.json
@@ -31,4 +32,3 @@ C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\obj\Debug\net6.0\refi
 C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\obj\Debug\net6.0\WebApplication1.pdb
 C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\obj\Debug\net6.0\WebApplication1.genruntimeconfig.cache
 C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\obj\Debug\net6.0\ref\WebApplication1.dll
-C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\bin\Debug\net6.0\data.json

@@ -1,0 +1,99 @@
+﻿@page "/CreatePost"
+@using global::Shared.Models
+@using HttpClients.ClientInterfaces
+@using global::Shared.DTOs
+@inject IPostService postService
+@inject IUserService userService
+@inject NavigationManager navMgr
+
+
+<div class="card">
+    @if (users == null)
+    {
+        <label>Loading users...</label>
+    }
+    else if (!users.Any())
+    {
+        <label>No users, you cannot create a Todo</label>
+    }
+    else
+    {
+        <h3>Create Post</h3>
+        <div class="form-group field">
+            <label>Author:</label>
+            <select @bind="selectedUserId">
+                <option>Choose</option>
+                @foreach (User user in users)
+                {
+                    <option value="@user.Id">@user.UserName</option>
+                }
+            </select>
+        </div>
+        <div class="form-group field">
+            <label>Title:</label>
+            <input type="text" @bind="postTitle"/>
+        </div>
+        <div class="form-group field">
+            <label>Content:</label>
+            <input type="text" @bind="postContent"/>
+        </div>
+        <div class="button-row">
+            @if (!string.IsNullOrEmpty(msg))
+            {
+                <label style="color: red">@msg</label>
+            }
+            <button @onclick="Create" class="acceptbtn">Create</button>
+        </div>
+    }
+</div>
+
+
+@code {
+    private IEnumerable<User>? users;
+    private int? selectedUserId;
+    private int? selectedPostId;
+    private string postTitle = "";
+    private string postContent = "";
+
+    private string msg = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        msg = "";
+        try
+        {
+            users = await userService.GetUsers();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+
+    private async Task Create()
+    {
+        msg = "";
+        if (selectedUserId == null)
+        {
+            msg = "You must select author!";
+            return;
+        }
+        if (string.IsNullOrEmpty(postTitle))
+        {
+            msg = "Title cannot be empty";
+            return;
+        }
+        try
+        {
+            PostCreationDto dto = new((int)selectedUserId, postTitle, postContent);
+            await postService.CreateAsync(dto);
+            navMgr.NavigateTo("/");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine();
+            msg = e.Message;
+        }
+    }
+}

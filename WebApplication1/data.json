@@ -34,7 +34,43 @@
       "Id": 7,
       "UserName": "iGor",
       "Posts": null
+    },
+    {
+      "Id": 8,
+      "UserName": "King Mark",
+      "Posts": null
+    },
+    {
+      "Id": 9,
+      "UserName": "Isaud",
+      "Posts": null
+    },
+    {
+      "Id": 10,
+      "UserName": "Branwen",
+      "Posts": null
     }
   ],
-  "Posts": []
+  "Posts": [
+    {
+      "Id": 1,
+      "owner": {
+        "Id": 1,
+        "UserName": "Tristan",
+        "Posts": null
+      },
+      "Title": "Guys I have to escort a queen",
+      "Content": "Me (M24) got a task to escort queen Isold to my King Mark of Cornwall. It is not a easy task since it is uknown if her people will struck a deal with my king."
+    },
+    {
+      "Id": 2,
+      "owner": {
+        "Id": 6,
+        "UserName": "Morholt",
+        "Posts": null
+      },
+      "Title": "I have to fight Tristan",
+      "Content": "I cannot let him take Isold to King Mark"
+    }
+  ]
 }
