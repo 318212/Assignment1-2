@@ -10,4 +10,9 @@
       <ProjectReference Include="..\Domain\Domain.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Components.Authorization" Version="6.0.10" />
+      <PackageReference Include="Microsoft.JSInterop.WebAssembly" Version="6.0.10" />
+    </ItemGroup>
+
 </Project>

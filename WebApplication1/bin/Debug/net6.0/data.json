@@ -3,7 +3,12 @@
     {
       "Id": 1,
       "UserName": "Franek",
-      "Password": null
+      "Password": "admin"
+    },
+    {
+      "Id": 2,
+      "UserName": "Troels",
+      "Password": "teacher"
     }
   ],
   "Posts": []
