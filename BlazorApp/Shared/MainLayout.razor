@@ -1,13 +1,30 @@
 ﻿@inherits LayoutComponentBase
+@using HttpClients.ClientInterfaces
+@inject IAuthService authService
+@inject NavigationManager navMgr
 
 <div class="page">
-    <div class="sidebar">
-        <NavMenu/>
-    </div>
+    <AuthorizeView>
+        <Authorized>
+            <div class="sidebar">
+                <NavMenu />
+            </div>
+        </Authorized>
+    </AuthorizeView>
+    
 
     <main>
         <div class="top-row px-4">
-            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+            <AuthorizeView>
+                <NotAuthorized>
+                    <a href="login">Log in</a>
+                    <a href="signup">Sign up</a>
+                </NotAuthorized>
+                <Authorized>
+                    <a href="profile/@context.User.Claims.First(c => c.Type.Equals("Id")).Value">@context.User.Identity.Name</a>
+                    <a href="#" @onclick="LogOut">Log out</a>
+                </Authorized>
+            </AuthorizeView>          
         </div>
 
         <article class="content px-4">
@@ -15,3 +32,10 @@
         </article>
     </main>
 </div>
+
+@code {
+    private async Task LogOut() {
+        await authService.LogoutAsync();
+        navMgr.NavigateTo("/");
+    }
+}

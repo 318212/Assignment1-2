@@ -4,31 +4,37 @@
 @inject IAuthService authService
 @inject NavigationManager navMgr
 
-<AuthorizedView>
+<AuthorizeView>
     <NotAuthorized>
         <div class="card">
-            <h3>Login</h3>
-            <div>
-                <label>Username:</label>
-                <input type="userName" @bind="userName" @bind:event="oninput"/>
-                <label>Password:</label>
-                <input type="password" @bind="password" @bind:event="oninput"/>
-                @if (!string.IsNullOrEmpty(resultMsg))
-                {
-                    <label style="color: @color">@resultMsg</label>
-                }
+            <h3>Please login</h3>
+            <div class="field">
+                <label>User name:</label>
+                <input type="text" @bind="userName"/>
             </div>
-            <div class="button-row">
-                <button @onclick="Login" disabled="@(string.IsNullOrEmpty(userName) || string.IsNullOrEmpty(password))" class="acceptbtn">
-                    Log in
-                </button>
+            <div class="field">
+                <label style="text-align: center">Password:</label>
+                <input type="password" @bind="password"/>
+            </div>
+            @if (!string.IsNullOrEmpty(resultMsg))
+            {
+                <div class="field">
+                    <label style="color: red">
+                        @resultMsg
+                    </label>
+                </div>
+            }
+            <div class="field">
+                <button class="loginbtn" @onclick="Login">Log in</button>
             </div>
         </div>
     </NotAuthorized>
     <Authorized>
-        <label>HALO</label>
+        <div class="card">
+            <label>HALO</label>
+        </div>
     </Authorized>
-</AuthorizedView>
+</AuthorizeView>
 
 
 @code {
