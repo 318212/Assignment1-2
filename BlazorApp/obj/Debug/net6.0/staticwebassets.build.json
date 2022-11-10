@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HmxPob1A4BW/gvMUW2B7yo09qS1og8sQOyv5P41aKio=",
+  "Hash": "Mx+KhsOSObCurAC5FgWPDbvYcS08Nn0lURQ51HQZVi4=",
   "Source": "BlazorApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -286,7 +286,24 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\frane\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "C:\\Users\\frane\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
+      "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "SourceId": "BlazorApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\frane\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
@@ -303,7 +320,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\frane\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "C:\\Users\\frane\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
@@ -371,7 +388,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\frane\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "C:\\Users\\frane\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
@@ -575,7 +592,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\frane\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\frane\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.2\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
@@ -643,7 +660,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\frane\\.nuget\\packages\\microsoft.jsinterop\\6.0.8\\lib\\net6.0\\Microsoft.JSInterop.dll"
+      "OriginalItemSpec": "C:\\Users\\frane\\.nuget\\packages\\microsoft.jsinterop\\6.0.10\\lib\\net6.0\\Microsoft.JSInterop.dll"
     },
     {
       "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll",
@@ -660,7 +677,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\frane\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.8\\lib\\net6.0\\Microsoft.JSInterop.WebAssembly.dll"
+      "OriginalItemSpec": "C:\\Users\\frane\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.10\\lib\\net6.0\\Microsoft.JSInterop.WebAssembly.dll"
     },
     {
       "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.VisualBasic.Core.dll",
@@ -3570,6 +3587,23 @@
       "OriginalItemSpec": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.Channels.dll"
     },
     {
+      "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\obj\\Debug\\net6.0\\build-gz\\+pa+hBcz.gz",
+      "SourceId": "BlazorApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.JSInterop.WebAssembly.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll"
+    },
+    {
       "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\obj\\Debug\\net6.0\\build-gz\\+xWR35YW.gz",
       "SourceId": "BlazorApp",
       "SourceType": "Computed",
@@ -3927,6 +3961,23 @@
       "OriginalItemSpec": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Reflection.TypeExtensions.dll"
     },
     {
+      "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\obj\\Debug\\net6.0\\build-gz\\3reu3+3z.gz",
+      "SourceId": "BlazorApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
+    },
+    {
       "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\obj\\Debug\\net6.0\\build-gz\\4+FjO+E1.gz",
       "SourceId": "BlazorApp",
       "SourceType": "Computed",
@@ -4114,23 +4165,6 @@
       "OriginalItemSpec": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipes.dll"
     },
     {
-      "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\obj\\Debug\\net6.0\\build-gz\\7lKVq+wP.gz",
-      "SourceId": "BlazorApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
-    },
-    {
       "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\obj\\Debug\\net6.0\\build-gz\\8t9nL9g8.gz",
       "SourceId": "BlazorApp",
       "SourceType": "Computed",
@@ -4163,23 +4197,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Globalization.Calendars.dll"
-    },
-    {
-      "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\obj\\Debug\\net6.0\\build-gz\\8XFnhbfY.gz",
-      "SourceId": "BlazorApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\obj\\Debug\\net6.0\\build-gz\\9r6NrFz+.gz",
@@ -4624,23 +4641,6 @@
       "OriginalItemSpec": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Collections.dll"
     },
     {
-      "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\obj\\Debug\\net6.0\\build-gz\\eOa4h2aC.gz",
-      "SourceId": "BlazorApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
-    },
-    {
       "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\obj\\Debug\\net6.0\\build-gz\\eSHKzL5z.gz",
       "SourceId": "BlazorApp",
       "SourceType": "Computed",
@@ -4826,23 +4826,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.ServiceProcess.dll"
-    },
-    {
-      "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\obj\\Debug\\net6.0\\build-gz\\fW2s22Hp.gz",
-      "SourceId": "BlazorApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.JSInterop.WebAssembly.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll"
     },
     {
       "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\obj\\Debug\\net6.0\\build-gz\\g0hVx6xc.gz",
@@ -5134,23 +5117,6 @@
       "OriginalItemSpec": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Security.dll"
     },
     {
-      "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\obj\\Debug\\net6.0\\build-gz\\JEg7DWJ3.gz",
-      "SourceId": "BlazorApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
-    },
-    {
       "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\obj\\Debug\\net6.0\\build-gz\\jk3we2VU.gz",
       "SourceId": "BlazorApp",
       "SourceType": "Computed",
@@ -5321,6 +5287,23 @@
       "OriginalItemSpec": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Private.DataContractSerialization.dll"
     },
     {
+      "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\obj\\Debug\\net6.0\\build-gz\\kqa4UowL.gz",
+      "SourceId": "BlazorApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
+    },
+    {
       "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\obj\\Debug\\net6.0\\build-gz\\kULeGntR.gz",
       "SourceId": "BlazorApp",
       "SourceType": "Computed",
@@ -5489,6 +5472,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Cryptography.OpenSsl.dll"
+    },
+    {
+      "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\obj\\Debug\\net6.0\\build-gz\\lZTp4l1M.gz",
+      "SourceId": "BlazorApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\obj\\Debug\\net6.0\\build-gz\\m+3T6eNq.gz",
@@ -5712,6 +5712,23 @@
       "OriginalItemSpec": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.dll"
     },
     {
+      "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\obj\\Debug\\net6.0\\build-gz\\nTjGOrx5.gz",
+      "SourceId": "BlazorApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
       "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\obj\\Debug\\net6.0\\build-gz\\NvYRIyfd.gz",
       "SourceId": "BlazorApp",
       "SourceType": "Computed",
@@ -5829,6 +5846,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Mail.dll"
+    },
+    {
+      "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\obj\\Debug\\net6.0\\build-gz\\oM1O29mx.gz",
+      "SourceId": "BlazorApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\obj\\Debug\\net6.0\\build-gz\\OMryhjfo.gz",
@@ -6120,21 +6154,21 @@
       "OriginalItemSpec": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Requests.dll"
     },
     {
-      "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\obj\\Debug\\net6.0\\build-gz\\refQEXci.gz",
+      "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\obj\\Debug\\net6.0\\build-gz\\rcnz0tSL.gz",
       "SourceId": "BlazorApp",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "RelatedAsset": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\obj\\Debug\\net6.0\\build-gz\\RgOGkY8M.gz",

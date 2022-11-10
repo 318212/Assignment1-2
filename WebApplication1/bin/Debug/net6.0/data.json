@@ -9,7 +9,23 @@
       "Id": 2,
       "UserName": "Troels",
       "Password": "teacher"
+    },
+    {
+      "Id": 3,
+      "UserName": "test",
+      "Password": ""
     }
   ],
-  "Posts": []
+  "Posts": [
+    {
+      "Id": 1,
+      "owner": {
+        "Id": 1,
+        "UserName": "Franek",
+        "Password": "admin"
+      },
+      "Title": "123",
+      "Content": "123"
+    }
+  ]
 }

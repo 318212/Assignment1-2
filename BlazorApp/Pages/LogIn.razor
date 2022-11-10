@@ -1,0 +1,61 @@
+﻿@page "/login"
+@using HttpClients.ClientInterfaces
+@using global::Shared.DTOs
+@inject IAuthService authService
+@inject NavigationManager navMgr
+
+<AuthorizedView>
+    <NotAuthorized>
+        <div class="card">
+            <h3>Login</h3>
+            <div>
+                <label>Username:</label>
+                <input type="userName" @bind="userName" @bind:event="oninput"/>
+                <label>Password:</label>
+                <input type="password" @bind="password" @bind:event="oninput"/>
+                @if (!string.IsNullOrEmpty(resultMsg))
+                {
+                    <label style="color: @color">@resultMsg</label>
+                }
+            </div>
+            <div class="button-row">
+                <button @onclick="Login" disabled="@(string.IsNullOrEmpty(userName) || string.IsNullOrEmpty(password))" class="acceptbtn">
+                    Log in
+                </button>
+            </div>
+        </div>
+    </NotAuthorized>
+    <Authorized>
+        <label>HALO</label>
+    </Authorized>
+</AuthorizedView>
+
+
+@code {
+    private string userName = "";
+    private string password = "";
+    private string resultMsg = "";
+    private string color = "";
+
+    private async Task Login()
+    {
+        resultMsg = "";
+        try
+        {
+            await authService.LoginAsync(new UserLoginDto()
+            {
+                Username = userName,
+                Password = password
+            });
+            resultMsg = $"Logged in ";
+            navMgr.NavigateTo("/");
+            color = "green";
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            resultMsg = e.Message;
+            color = "red";
+        }
+    }
+}

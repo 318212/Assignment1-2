@@ -1867,6 +1867,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "HttpClients >= 1.0.0",
+      "Microsoft.AspNetCore.Components.Authorization >= 6.0.10",
       "Microsoft.AspNetCore.Components.WebAssembly >= 6.0.8",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.8"
     ]
@@ -1919,6 +1920,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Components.Authorization": {
+            "target": "Package",
+            "version": "[6.0.10, )"
+          },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
             "version": "[6.0.8, )"
