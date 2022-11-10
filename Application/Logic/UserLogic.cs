@@ -49,4 +49,17 @@ public class UserLogic : IUserLogic
         if (userName.Length > 15)
             throw new Exception("Username must be less than 16 characters!");
     }
+
+    public async Task<UserBasicDto> GetByIdAsync(int id)
+    {
+        User? existing = await userDao.GetByIdAsync(id);
+        if (existing == null)
+        {
+            throw new Exception($"User with id {id} does not exist");
+        }
+    
+        UserBasicDto userBasic = new UserBasicDto(existing.Id, existing.UserName);
+
+        return userBasic;
+    }
 }

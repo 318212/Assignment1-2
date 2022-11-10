@@ -51,4 +51,20 @@ public class UserHttpClient : IUserService
         })!;
         return users;
     }
+
+    public async Task<UserBasicDto> GetByIdAsync(int id)
+    {
+        HttpResponseMessage respone = await client.GetAsync($"/api/users/{id}");
+        string result = await respone.Content.ReadAsStringAsync();
+        if (!respone.IsSuccessStatusCode)
+        {
+            throw new Exception(result);
+        }
+
+        UserBasicDto profile = JsonSerializer.Deserialize<UserBasicDto>(result, new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true
+        })!;
+        return profile;
+    }
 }

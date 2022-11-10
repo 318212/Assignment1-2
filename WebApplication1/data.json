@@ -36,6 +36,16 @@
       },
       "Title": "Ladies and gentleman i think I fixed it",
       "Content": "after 5 hours of work and not sleeping for 3 days straight I managed to do some progress for dnp assignment"
+    },
+    {
+      "Id": 3,
+      "owner": {
+        "Id": 2,
+        "UserName": "Troels",
+        "Password": "teacher"
+      },
+      "Title": "Hej, jeg hedder Troels.",
+      "Content": "Jeg (36\u00E5r) er l\u00E6rer og jeg arbejde p\u00E5 VIA Univerisity College i Horsens."
     }
   ]
 }

@@ -7,4 +7,6 @@ public interface IUserService
 {
     Task<User> Create(UserCreationDto dto);
     Task<IEnumerable<User>> GetUsers(string? usernameContains = null);
+
+    Task<UserBasicDto> GetByIdAsync(int id);
 }

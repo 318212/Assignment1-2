@@ -85,4 +85,5 @@ public class PostLogic : IPostLogic
 
         await postDao.DeleteAsync(id);
     }
+    
 }

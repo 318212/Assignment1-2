@@ -2,12 +2,14 @@
 
 public class UserBasicDto
 {
+    public int Id { get; set; }
     public string Username { get; set; }
-    public string Password { get; set; }
+    //public string Password { get; set; }
 
-    public UserBasicDto(string username, string password)
+    public UserBasicDto(int id, string username)
     {
+        Id = id;
         Username = username;
-        Password = password;
+        
     }
 }

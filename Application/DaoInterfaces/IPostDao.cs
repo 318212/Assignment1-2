@@ -13,4 +13,5 @@ public interface IPostDao
     Task<Post?> GetByIdAsync(int postId);
 
     Task DeleteAsync(int id);
+    
 }

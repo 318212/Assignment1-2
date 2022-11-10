@@ -46,4 +46,18 @@ public class UsersController : ControllerBase
             return StatusCode(500, e.Message);
         }
     }
+
+    [HttpGet("{id:int}")]
+    public async Task<ActionResult<UserBasicDto>> GetByIdAsync([FromRoute] int id)
+    {
+        try
+        {
+            return await userLogic.GetByIdAsync(id);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return StatusCode(500,e.Message);
+        }
+    }
 }

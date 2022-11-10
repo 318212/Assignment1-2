@@ -1,0 +1,30 @@
+﻿@* @page "/Profile/{id:int}" *@
+@* @using HttpClients.ClientInterfaces *@
+@* @using global::Shared.DTOs *@
+@* @inject IUserService userService *@
+@* @inject IPostService postService *@
+@* @inject IAuthService authService *@
+@* @inject NavigationManager navMgr *@
+@* *@
+@* *@
+@* <h3>Profile</h3> *@
+@* *@
+@* @code { *@
+@*     [Parameter] *@
+@*     public int Id { get; set; } *@
+@* *@
+@*     private string msg = ""; *@
+@*     private UserBasicDto user = null!; *@
+@*     private IEnumerable<PostBasicDTO> userPosts = null!; *@
+@* *@
+@* *@
+@*     protected override async Task OnInitializedAsync() *@
+@*     { *@
+@*         msg = ""; *@
+@*         try *@
+@*         { *@
+@*             user = await userService.GetByIdAsync(Id); *@
+@*             userPosts = await userPosts.GetByUserIdAsync(Id); *@
+@*         } *@
+@*     } *@
+@* } *@
