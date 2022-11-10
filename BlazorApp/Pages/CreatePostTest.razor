@@ -1,6 +1,65 @@
 ﻿@page "/CreatePostTest"
-<h3>CreatePostTest</h3>
+@using HttpClients.ClientInterfaces
+@using global::Shared.DTOs
+@inject IUserService userService
+@inject IPostService postService
+@inject AuthenticationStateProvider asp
+
+<AuthorizeView>
+    <NotAuthorized>
+        <label>You must be logged in to use this feature</label>
+    </NotAuthorized>
+    <Authorized>
+        <div class="card">
+            <h3>Create Post</h3>
+            <div class="form-group field">
+                <label>Post title:</label>
+                <input type="text" @bind="postTitle" @bind:event="oninput"/>
+                @if (!string.IsNullOrEmpty(resultMsg))
+                {
+                    <label style="color: @color">@resultMsg</label>
+                }
+                <label>Content:</label>
+                <input type="text" @bind="postContent" @bind:event="oninput"/>
+            </div>
+            <div class="button-row">
+                <button @onclick="Create" disabled="@(string.IsNullOrEmpty(postTitle))" class="acceptbtn">
+                    CreatePost
+                </button>
+            </div>
+        </div>
+    </Authorized>
+</AuthorizeView>
+
 
 @code {
-    
+    public int id { get; private set; }
+    private string postTitle = "";
+    private string postContent = "";
+
+    private string resultMsg = "";
+    private string color = "";
+
+    protected async Task Create()
+    {
+        resultMsg = "";
+        try
+        {
+            id = Int32.Parse(asp.GetAuthenticationStateAsync().Result
+                .User.Claims.First(c => c.Type.Equals("Id")).Value);
+
+            await postService.CreateAsync(new PostCreationDto(id, postTitle, postContent));
+            postTitle = "";
+            postContent = "";
+            color = "green";
+            resultMsg = "Post successfully created";
+        }
+
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            resultMsg = e.Message;
+            color = "red";
+        }
+    }
 }

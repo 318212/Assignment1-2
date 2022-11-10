@@ -1,5 +1,32 @@
 /* /Pages/CreatePost.razor.rz.scp.css */
-.card[b-h1oki55iil] {
+/*.card {*/
+/*    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
+/*    transition: 0.3s;*/
+/*    width: 250px;*/
+/*    padding: 25px;*/
+/*    text-align: center;*/
+/*    margin: auto;*/
+/*    margin-top: 50px;*/
+/*    border-radius: 15px;*/
+/*}*/
+
+/*.field {*/
+/*    margin-top: 20px;*/
+/*}*/
+
+/*.acceptbtn {*/
+/*    background-color: lightgreen;*/
+/*    border-radius: 5px;*/
+/*    padding: 5px;*/
+/*    padding-left: 10px;*/
+/*    padding-right: 10px;*/
+/*}*/
+
+/*.button-row {*/
+/*    margin-top: 15px;*/
+/*}*/
+/* /Pages/CreatePostTest.razor.rz.scp.css */
+.card[b-zc7j2mt8d4] {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 250px;
@@ -10,11 +37,11 @@
     border-radius: 15px;
 }
 
-.field[b-h1oki55iil] {
+.field[b-zc7j2mt8d4] {
     margin-top: 20px;
 }
 
-.acceptbtn[b-h1oki55iil] {
+.acceptbtn[b-zc7j2mt8d4] {
     background-color: lightgreen;
     border-radius: 5px;
     padding: 5px;
@@ -22,7 +49,7 @@
     padding-right: 10px;
 }
 
-.button-row[b-h1oki55iil] {
+.button-row[b-zc7j2mt8d4] {
     margin-top: 15px;
 }
 /* /Pages/CreateUser.razor.rz.scp.css */

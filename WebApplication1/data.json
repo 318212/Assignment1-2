@@ -26,6 +26,16 @@
       },
       "Title": "123",
       "Content": "123"
+    },
+    {
+      "Id": 2,
+      "owner": {
+        "Id": 1,
+        "UserName": "Franek",
+        "Password": "admin"
+      },
+      "Title": "Ladies and gentleman i think I fixed it",
+      "Content": "after 5 hours of work and not sleeping for 3 days straight I managed to do some progress for dnp assignment"
     }
   ]
 }
