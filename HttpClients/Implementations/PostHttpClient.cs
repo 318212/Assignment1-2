@@ -40,4 +40,58 @@ public class PostHttpClient : IPostService
         })!;
         return posts;
     }
+
+    public async Task<ICollection<Post>> GetAllAsync()
+    {
+        HttpResponseMessage response = await client.GetAsync("/api/posts");
+        string content = await response.Content.ReadAsStringAsync();
+        if (!response.IsSuccessStatusCode)
+        {
+            throw new Exception(content);
+        }
+
+        ICollection<Post> posts = JsonSerializer.Deserialize<ICollection<Post>>(content, new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true
+        })!;
+
+        return posts.OrderByDescending(p => p.Id).ToList();
+    }
+
+    public async Task<Post> GetByIdAsync(int id)
+    {
+        HttpResponseMessage response = await client.GetAsync($"/api/posts/{id}");
+        string content = await response.Content.ReadAsStringAsync();
+        if (!response.IsSuccessStatusCode)
+        {
+            throw new Exception(content);
+        }
+
+        Post post = JsonSerializer.Deserialize<Post>(content, new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true
+        })!;
+
+
+        return post;
+    }
+
+    public async Task<ICollection<Post>> GetAllByUserIdAsync(int id)
+    {
+        HttpResponseMessage response = await client.GetAsync($"/api/posts/user?id={id}");
+        string content = await response.Content.ReadAsStringAsync();
+
+        if (!response.IsSuccessStatusCode)
+        {
+            throw new Exception(content);
+        }
+
+        ICollection<Post> posts = JsonSerializer.Deserialize<ICollection<Post>>(content, new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true
+        })!;
+
+
+        return posts;
+    }
 }

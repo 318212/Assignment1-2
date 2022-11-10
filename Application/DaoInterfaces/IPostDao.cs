@@ -14,4 +14,5 @@ public interface IPostDao
 
     Task DeleteAsync(int id);
     
+    Task<IEnumerable<Post>> GetByUserIdAsync(int id);
 }

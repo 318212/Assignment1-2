@@ -78,4 +78,17 @@ public class PostsController : ControllerBase
         }
     }
     
+    [HttpGet("/api/[controller]/user")]
+    public async Task<ActionResult<IEnumerable<Post>>> GetByUserIdAsync([FromQuery] int id)
+    {
+        try
+        {
+            IEnumerable<Post> posts = await postLogic.GetByUserIdAsync(id);
+            return Ok(posts);
+        } catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return StatusCode(500, e.Message);
+        }
+    }
 }

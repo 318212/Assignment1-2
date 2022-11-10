@@ -86,4 +86,8 @@ public class PostLogic : IPostLogic
         await postDao.DeleteAsync(id);
     }
     
+    public async Task<IEnumerable<Post>> GetByUserIdAsync(int id)
+    {
+        return await postDao.GetByUserIdAsync(id);
+    }
 }

@@ -14,5 +14,8 @@ public interface IPostService
         string? postContent
         );
     
+    Task<ICollection<Post>> GetAllAsync();
+    Task<Post> GetByIdAsync(int id);
+    Task<ICollection<Post>> GetAllByUserIdAsync(int id);
 
 }

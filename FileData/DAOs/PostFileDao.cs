@@ -95,4 +95,9 @@ public class PostFileDao : IPostDao
         return Task.CompletedTask;
     }
     
+    public Task<IEnumerable<Post>> GetByUserIdAsync(int id)
+    {
+        IEnumerable<Post> result = context.Posts.Where(p => p.owner.Id == id);
+        return Task.FromResult(result);
+    }
 }
