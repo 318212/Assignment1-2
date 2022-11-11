@@ -825,11 +825,7 @@ C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\blazor.boo
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\CreatePost.razor.rz.scp.css
-C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\CreatePostTest.razor.rz.scp.css
-C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\CreateUser.razor.rz.scp.css
-C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\LogIn.razor.rz.scp.css
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\ViewPosts.razor.rz.scp.css
-C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\ViewUsers.razor.rz.scp.css
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\scopedcss\bundle\BlazorApp.styles.css
