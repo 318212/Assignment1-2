@@ -13,4 +13,6 @@ public interface IPostLogic
     Task DeleteAsync(int id);
     
     Task<IEnumerable<Post>> GetByUserIdAsync(int id);
+
+    Task<Post> GetByIdAsync(int? id);
 }

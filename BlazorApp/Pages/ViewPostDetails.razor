@@ -1,13 +1,35 @@
-﻿@page "/Posts"
+﻿@page "/Posts/{id:int}"
 @using HttpClients.ClientInterfaces
 @using global::Shared.Models
 @inject IPostService postService
 @inject AuthenticationStateProvider asp
 @inject NavigationManager navMgr
 
+<AuthorizeView>
+    <NotAuthorized>
+        <label>You must be logged in to perform this action</label>
+    </NotAuthorized>
+    <Authorized>
+        @if (!string.IsNullOrEmpty(msg))
+        {
+            <div>
+                <span>@msg</span>
+            </div>
+        }
+        @if (post != null)
+        {
+            <h3>ViewPostDetails</h3>
+            <div class="post">
+                <div id="Id">Post number: @post.Id</div>
+                <div id="Owner">Creator: @post.owner.UserName</div>
+                <div id="Title">Title: <b>@post.Title</b></div>
+                <div id="Content">Content: <p style="white-space: pre-line">@post.Content</p></div>
+            </div>
+        }
+    </Authorized>
+</AuthorizeView>
 
 
-<h3>ViewPostDetails</h3>
 
 @code {
     [Parameter]

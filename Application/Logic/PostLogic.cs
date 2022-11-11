@@ -90,4 +90,20 @@ public class PostLogic : IPostLogic
     {
         return await postDao.GetByUserIdAsync(id);
     }
+
+    public async Task<Post> GetByIdAsync(int? id)
+    {
+        if (id == null)
+        {
+            throw new Exception("Id cannot be null");
+        }
+
+        Post? post = await postDao.GetByIdAsync((int)id);
+        if (post == null)
+        {
+            throw new Exception($"Post with {id} not found");
+        }
+
+        return post;
+    }
 }
