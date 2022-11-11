@@ -14,6 +14,11 @@
       "Id": 3,
       "UserName": "test",
       "Password": ""
+    },
+    {
+      "Id": 4,
+      "UserName": "TestAccount",
+      "Password": "test1"
     }
   ],
   "Posts": [
@@ -56,6 +61,26 @@
       },
       "Title": "its going okay with DNP",
       "Content": "I have so many new functions and ideas how to improve this system but im afraid that i do not have enough time"
+    },
+    {
+      "Id": 5,
+      "owner": {
+        "Id": 1,
+        "UserName": "Franek",
+        "Password": "admin"
+      },
+      "Title": "test",
+      "Content": "test"
+    },
+    {
+      "Id": 6,
+      "owner": {
+        "Id": 4,
+        "UserName": "TestAccount",
+        "Password": "test1"
+      },
+      "Title": "Dependency Injection",
+      "Content": "I have few questions about dependency injection:"
     }
   ]
 }

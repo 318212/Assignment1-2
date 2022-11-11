@@ -78,7 +78,7 @@ public class PostsController : ControllerBase
         }
     }
     
-    [HttpGet("/user")]
+    [HttpGet("/[controller]/user")]
     public async Task<ActionResult<IEnumerable<Post>>> GetByUserIdAsync([FromQuery] int id)
     {
         try

@@ -838,3 +838,4 @@ C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\l
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\3reu3+3z.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\+pa+hBcz.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\CreatePostTest.razor.rz.scp.css
+C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\Profile.razor.rz.scp.css
