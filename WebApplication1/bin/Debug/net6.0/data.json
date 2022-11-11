@@ -1,0 +1,126 @@
+{
+  "Users": [
+    {
+      "Id": 1,
+      "UserName": "Franek",
+      "Password": "admin"
+    },
+    {
+      "Id": 2,
+      "UserName": "Jakob",
+      "Password": "teacher"
+    },
+    {
+      "Id": 3,
+      "UserName": "Troels",
+      "Password": "teacher"
+    },
+    {
+      "Id": 4,
+      "UserName": "Bias of Priene",
+      "Password": "filozof"
+    },
+    {
+      "Id": 5,
+      "UserName": "Julius",
+      "Password": "cezar"
+    },
+    {
+      "Id": 6,
+      "UserName": "shorter name",
+      "Password": "1234"
+    }
+  ],
+  "Posts": [
+    {
+      "Id": 1,
+      "owner": {
+        "Id": 1,
+        "UserName": "Franek",
+        "Password": "admin"
+      },
+      "Title": "Welcome",
+      "Content": "In this short video I will show what I did"
+    },
+    {
+      "Id": 2,
+      "owner": {
+        "Id": 1,
+        "UserName": "Franek",
+        "Password": "admin"
+      },
+      "Title": "Pages and functionalities",
+      "Content": "In this system we have all required functionalities and also ability to look at our profile and posts we created"
+    },
+    {
+      "Id": 3,
+      "owner": {
+        "Id": 1,
+        "UserName": "Franek",
+        "Password": "admin"
+      },
+      "Title": "Future of the project",
+      "Content": "Possibility from my previous post might come in handy in the future updates"
+    },
+    {
+      "Id": 4,
+      "owner": {
+        "Id": 4,
+        "UserName": "Bias of Priene",
+        "Password": "filozof"
+      },
+      "Title": "Sentence",
+      "Content": "Omnia mea mecum porto"
+    },
+    {
+      "Id": 5,
+      "owner": {
+        "Id": 1,
+        "UserName": "Franek",
+        "Password": "admin"
+      },
+      "Title": "overview",
+      "Content": "We will create a post now"
+    },
+    {
+      "Id": 6,
+      "owner": {
+        "Id": 2,
+        "UserName": "Jakob",
+        "Password": "teacher"
+      },
+      "Title": "Overview",
+      "Content": "Notice the change in your profile"
+    },
+    {
+      "Id": 7,
+      "owner": {
+        "Id": 5,
+        "UserName": "Julius",
+        "Password": "cezar"
+      },
+      "Title": "Thank you",
+      "Content": "That was whole overwiev of the system"
+    },
+    {
+      "Id": 8,
+      "owner": {
+        "Id": 1,
+        "UserName": "Franek",
+        "Password": "admin"
+      },
+      "Title": "we can create  a post",
+      "Content": "content "
+    },
+    {
+      "Id": 9,
+      "owner": {
+        "Id": 6,
+        "UserName": "shorter name",
+        "Password": "1234"
+      },
+      "Title": "new post",
+      "Content": "post"
+    }
+  ]
+}
