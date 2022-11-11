@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Mx+KhsOSObCurAC5FgWPDbvYcS08Nn0lURQ51HQZVi4=",
+  "Hash": "La4A5kMB1Wx6w4NF6QwYTkRJoBbaFN05UQNGuksngnE=",
   "Source": "BlazorApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -7206,6 +7206,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
+    },
+    {
+      "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\wwwroot\\css\\styles.css",
+      "SourceId": "BlazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
       "Identity": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\BlazorApp\\wwwroot\\favicon.ico",
