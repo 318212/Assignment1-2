@@ -79,6 +79,33 @@
 .button-row[b-4nu5our0n5]{
     margin-top: 15px;
 }
+/* /Pages/LogIn.razor.rz.scp.css */
+.card[b-c956fem5qt] {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 250px;
+    padding: 25px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.field[b-c956fem5qt] {
+    margin-top: 20px;
+}
+
+.acceptbtn[b-c956fem5qt] {
+    background-color:lightgreen;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button-row[b-c956fem5qt]{
+    margin-top: 15px;
+}
 /* /Pages/Profile.razor.rz.scp.css */
 .card[b-i9n0qbq691], .post-card[b-i9n0qbq691], .user-card[b-i9n0qbq691]{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);

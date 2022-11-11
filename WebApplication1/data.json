@@ -19,6 +19,26 @@
       "Id": 4,
       "UserName": "TestAccount",
       "Password": "test1"
+    },
+    {
+      "Id": 5,
+      "UserName": "Jakob",
+      "Password": "DNPTeacher"
+    },
+    {
+      "Id": 6,
+      "UserName": "iGor",
+      "Password": "hidden"
+    },
+    {
+      "Id": 7,
+      "UserName": "test1",
+      "Password": "test"
+    },
+    {
+      "Id": 8,
+      "UserName": "Dercion",
+      "Password": "dercion"
     }
   ],
   "Posts": [
@@ -81,6 +101,36 @@
       },
       "Title": "Dependency Injection",
       "Content": "I have few questions about dependency injection:"
+    },
+    {
+      "Id": 7,
+      "owner": {
+        "Id": 5,
+        "UserName": "Jakob",
+        "Password": "DNPTeacher"
+      },
+      "Title": "String ",
+      "Content": "StringStringStringStringStringStringString"
+    },
+    {
+      "Id": 8,
+      "owner": {
+        "Id": 5,
+        "UserName": "Jakob",
+        "Password": "DNPTeacher"
+      },
+      "Title": "TestTest",
+      "Content": "TESTESTESTSETSETSETSTSTSET"
+    },
+    {
+      "Id": 9,
+      "owner": {
+        "Id": 8,
+        "UserName": "Dercion",
+        "Password": "dercion"
+      },
+      "Title": "Monke",
+      "Content": "MonkeMonkeMonkeMonkeMonkeMonkeMonkeMonkeMonke"
     }
   ]
 }

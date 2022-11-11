@@ -18,7 +18,7 @@
             <AuthorizeView>
                 <NotAuthorized>
                     <a href="login">Log in</a>
-                    <a href="signup">Sign up</a>
+                    <a href="CreateUser">Sign up</a>
                 </NotAuthorized>
                 <Authorized>
                     <a href="profile/@context.User.Claims.First(c => c.Type.Equals("Id")).Value">@context.User.Identity.Name</a>

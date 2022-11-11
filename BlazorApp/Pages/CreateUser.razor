@@ -10,7 +10,7 @@
         <label>User name:</label>
         <input type="text" @bind="username" @bind:event="oninput"/>
         <label>Password:</label>
-        <input type="text" @bind="password" @bind:event="oninput"/>
+        <input type="password" @bind="password" @bind:event="oninput"/>
         @if (!string.IsNullOrEmpty(resultMsg))
         {
             <label style="color: @color">@resultMsg</label>
@@ -35,6 +35,7 @@
         {
             await userService.Create(new UserCreationDto(username,password));
             username = "";
+            password = "";
             resultMsg = "User successfully created";
             color = "green";
         }
