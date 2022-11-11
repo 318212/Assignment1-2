@@ -1,0 +1,58 @@
+﻿@page "/ViewPostsTest"
+@using HttpClients.ClientInterfaces
+@using global::Shared.Models
+@inject IUserService userService
+@inject IPostService postService
+@inject NavigationManager navMgr
+
+<AuthorizeView>
+    <NotAuthorized><label>You must be logge in to perform that action</label></NotAuthorized>
+    <Authorized>
+        @if (posts == null)
+        {
+            <label>Loading Posts</label>
+        }
+        else
+        {
+            <div class="posts">
+                <h3>ViewPosts</h3>
+                @if (posts.Count() == 0)
+                {
+                    <label>There are no posts in the system.</label>
+                }
+                else
+                {
+                    foreach (Post post in posts)
+                    {
+                        <div class="post-card" @onclick="@(() => navMgr.NavigateTo($"/posts/{post.Id}"))">
+                            <div id="postTitle">@post.Title</div>
+                            <div id="postContent">@post.Content</div>
+                        </div>
+                    }
+                }
+            </div>
+        }
+    </Authorized>
+</AuthorizeView>
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+    private string msg = "";
+    private ICollection<Post> posts = null!;
+
+    protected override async Task OnInitializedAsync()
+    {
+        msg = "";
+        try
+        {
+            posts = await postService.GetAllAsync();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+
+}

@@ -131,6 +131,16 @@
       },
       "Title": "Monke",
       "Content": "MonkeMonkeMonkeMonkeMonkeMonkeMonkeMonkeMonke"
+    },
+    {
+      "Id": 10,
+      "owner": {
+        "Id": 6,
+        "UserName": "iGor",
+        "Password": "hidden"
+      },
+      "Title": "10th post in this sytem",
+      "Content": "look above"
     }
   ]
 }

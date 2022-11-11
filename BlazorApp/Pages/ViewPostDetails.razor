@@ -1,0 +1,32 @@
+﻿@page "/Posts"
+@using HttpClients.ClientInterfaces
+@using global::Shared.Models
+@inject IPostService postService
+@inject AuthenticationStateProvider asp
+@inject NavigationManager navMgr
+
+
+
+<h3>ViewPostDetails</h3>
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private Post post = null!;
+    private string msg = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        msg = "";
+        try
+        {
+            post = await postService.GetByIdAsync(Id);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+}
