@@ -1,16 +1,18 @@
 ﻿@page "/"
 
-<PageTitle>Index</PageTitle>
+<PageTitle>DNPAssignment</PageTitle>
 
 <AuthorizeView>
     <NotAuthorized>
-        <h1>Hello, world!</h1>
+        <h1>Hello!</h1>
     </NotAuthorized>
     <Authorized>
         <h1>Hello, @context.User.Identity.Name</h1>
     </Authorized>
 </AuthorizeView>
 
-Welcome to your new app.
+This is the DNP Assignment 1 and 2 done by Franciszek Nurkiewicz (318212@via.dk).<br/>
+The source code can be found here: https://github.com/318212/Assignment1-2.git.<br/>
+The working solution is located in secondAttempt or in master branch.<br/>
 
-<SurveyPrompt Title="How is Blazor working for you?"/>
+<SurveyPrompt Title="Here you can go directly to the github repository."/>

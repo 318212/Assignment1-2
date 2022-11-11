@@ -151,6 +151,16 @@
       },
       "Title": "last post for test",
       "Content": "last post for testlast post for testlast post for test13213232132"
+    },
+    {
+      "Id": 12,
+      "owner": {
+        "Id": 1,
+        "UserName": "Franek",
+        "Password": "admin"
+      },
+      "Title": "check",
+      "Content": "checkcheckcheckcheckcheck"
     }
   ]
 }
