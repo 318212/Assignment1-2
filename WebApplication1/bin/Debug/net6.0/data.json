@@ -46,6 +46,16 @@
       },
       "Title": "Hej, jeg hedder Troels.",
       "Content": "Jeg (36\u00E5r) er l\u00E6rer og jeg arbejde p\u00E5 VIA Univerisity College i Horsens."
+    },
+    {
+      "Id": 4,
+      "owner": {
+        "Id": 1,
+        "UserName": "Franek",
+        "Password": "admin"
+      },
+      "Title": "its going okay with DNP",
+      "Content": "I have so many new functions and ideas how to improve this system but im afraid that i do not have enough time"
     }
   ]
 }

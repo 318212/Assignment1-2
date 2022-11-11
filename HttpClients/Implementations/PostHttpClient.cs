@@ -43,7 +43,7 @@ public class PostHttpClient : IPostService
 
     public async Task<ICollection<Post>> GetAllAsync()
     {
-        HttpResponseMessage response = await client.GetAsync("/api/posts");
+        HttpResponseMessage response = await client.GetAsync("/posts");
         string content = await response.Content.ReadAsStringAsync();
         if (!response.IsSuccessStatusCode)
         {
@@ -60,7 +60,7 @@ public class PostHttpClient : IPostService
 
     public async Task<Post> GetByIdAsync(int id)
     {
-        HttpResponseMessage response = await client.GetAsync($"/api/posts/{id}");
+        HttpResponseMessage response = await client.GetAsync($"/posts/{id}");
         string content = await response.Content.ReadAsStringAsync();
         if (!response.IsSuccessStatusCode)
         {
@@ -78,7 +78,7 @@ public class PostHttpClient : IPostService
 
     public async Task<ICollection<Post>> GetAllByUserIdAsync(int id)
     {
-        HttpResponseMessage response = await client.GetAsync($"/api/posts/user?id={id}");
+        HttpResponseMessage response = await client.GetAsync($"/posts/user?id={id}");
         string content = await response.Content.ReadAsStringAsync();
 
         if (!response.IsSuccessStatusCode)

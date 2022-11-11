@@ -54,7 +54,7 @@ public class UserHttpClient : IUserService
 
     public async Task<UserBasicDto> GetByIdAsync(int id)
     {
-        HttpResponseMessage respone = await client.GetAsync($"/api/users/{id}");
+        HttpResponseMessage respone = await client.GetAsync($"/users/{id}");
         string result = await respone.Content.ReadAsStringAsync();
         if (!respone.IsSuccessStatusCode)
         {

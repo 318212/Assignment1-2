@@ -1,0 +1,59 @@
+﻿@page "/Profile/{id:int}"
+@using global::Shared.DTOs
+@using global::Shared.Models
+@using HttpClients.ClientInterfaces
+@inject IUserService userService
+@inject IPostService postService
+@inject NavigationManager navMgr
+
+<AuthorizeView>
+    <NotAuthorized><label>You must be logged in to perform that action</label></NotAuthorized>
+    <Authorized>
+        <h3>Profile - @user.Username</h3>
+        @if (@context.User.Claims.First(c => c.Type.Equals("Id")).Value.Equals(user.Id.ToString()))
+        {
+            <div class="details">
+                <table>
+                    <tr>
+                        <td><b>Your Id:</b></td>
+                        <td>@user.Id</td>
+                    </tr>
+                    <tr>
+                        <td><b>Username:</b></td>
+                        <td>@user.Username</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="user-posts">
+                <h3>Posts</h3>
+            </div>
+        }
+    </Authorized>
+</AuthorizeView>
+
+
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+    private string msg = "";
+    private UserBasicDto user = null!;
+    private ICollection<Post> userPosts = null!;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        msg = "";
+        try
+        {
+            user = await userService.GetByIdAsync(Id);
+            userPosts = await postService.GetAllByUserIdAsync(Id);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+
+}
