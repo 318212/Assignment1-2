@@ -34,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/frane/RiderProjects/Assignment1-2/BlazorApp/Pages/Profile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/frane/RiderProjects/Assignment1-2/BlazorApp/Pages/ViewPostDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1Bvc3REZXRhaWxzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -65,10 +69,6 @@ build_metadata.AdditionalFiles.CssScope = b-4nu5our0n5
 [C:/Users/frane/RiderProjects/Assignment1-2/BlazorApp/Pages/LogIn.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nSW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-c956fem5qt
-
-[C:/Users/frane/RiderProjects/Assignment1-2/BlazorApp/Pages/Profile.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-i9n0qbq691
 
 [C:/Users/frane/RiderProjects/Assignment1-2/BlazorApp/Pages/ViewPosts.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1Bvc3RzLnJhem9y

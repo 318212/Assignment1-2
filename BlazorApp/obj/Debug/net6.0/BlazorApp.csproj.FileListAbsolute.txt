@@ -14,6 +14,7 @@ C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_f
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\icudt_no_CJK.dat
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\icudt.dat
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll
+C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll
@@ -207,6 +208,7 @@ C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_f
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Security.Claims.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Channels.dll.gz
+C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Net.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Domain.pdb.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XmlSerializer.dll.gz
@@ -228,6 +230,7 @@ C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_f
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Globalization.Extensions.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.TypeExtensions.dll.gz
+C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.JSInterop.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Security.Principal.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Tracing.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.dll.gz
@@ -239,10 +242,8 @@ C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_f
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.TraceSource.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Net.ServicePoint.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.IO.Pipes.dll.gz
-C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Intrinsics.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Globalization.Calendars.dll.gz
-C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Resources.Writer.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Win32.Registry.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Debug.dll.gz
@@ -269,7 +270,6 @@ C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_f
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Data.Common.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Threading.ThreadPool.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Collections.dll.gz
-C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\HttpClients.pdb.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.VisualBasic.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Buffers.dll.gz
@@ -281,7 +281,6 @@ C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_f
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Net.HttpListener.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.CSharp.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.ServiceProcess.dll.gz
-C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebProxy.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Threading.dll.gz
@@ -299,7 +298,6 @@ C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_f
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\blazor.webassembly.js.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Net.Security.dll.gz
-C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.JSInterop.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Resources.ResourceManager.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Configuration.dll.gz
@@ -310,6 +308,7 @@ C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_f
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\icudt.dat.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Private.DataContractSerialization.dll.gz
+C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Text.Encoding.Extensions.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebClient.dll.gz
@@ -320,6 +319,7 @@ C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_f
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.Json.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Dynamic.Runtime.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll.gz
+C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Abstractions.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Core.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\WindowsBase.dll.gz
@@ -333,6 +333,7 @@ C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_f
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.IO.Compression.ZipFile.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.dll.gz
+C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Data.DataSetExtensions.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Net.Sockets.dll.gz
@@ -340,6 +341,7 @@ C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_f
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XmlDocument.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Tasks.Parallel.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Net.Mail.dll.gz
+C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Text.Encoding.CodePages.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Timer.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Domain.dll.gz
@@ -357,7 +359,7 @@ C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_f
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Transactions.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Net.Quic.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Net.Requests.dll.gz
-C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll.gz
+C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.Memory.dll.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\System.IO.Compression.FileSystem.dll.gz
@@ -410,6 +412,7 @@ C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\BlazorApp.
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\BlazorApp.pdb
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\Microsoft.AspNetCore.Components.WebAssembly.dll
@@ -614,9 +617,13 @@ C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\BlazorApp.
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\BlazorApp.AssemblyInfo.cs
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\BlazorApp.csproj.CoreCompileInputs.cache
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\BlazorApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\nTjGOrx5.gz
+C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\rcnz0tSL.gz
+C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\oM1O29mx.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\IovlEmMZ.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\Sf99KI+g.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\dmucBmH3.gz
+C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\kqa4UowL.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\fbYGkcrt.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\m+3T6eNq.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\507j3aON.gz
@@ -628,8 +635,11 @@ C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\w
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\jMpYy5zS.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\3hEneAQL.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\kUzm2mcS.gz
+C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\lZTp4l1M.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\EUXAXZH6.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\tZU8iRYD.gz
+C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\3reu3+3z.gz
+C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\+pa+hBcz.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\JunIQC6C.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\FE6PNUdK.gz
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\gNQybD0l.gz
@@ -815,7 +825,10 @@ C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\blazor.boo
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\CreatePost.razor.rz.scp.css
+C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\CreatePostTest.razor.rz.scp.css
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\CreateUser.razor.rz.scp.css
+C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\LogIn.razor.rz.scp.css
+C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\ViewPosts.razor.rz.scp.css
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\ViewUsers.razor.rz.scp.css
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
@@ -826,17 +839,3 @@ C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\BlazorApp.
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\refint\BlazorApp.dll
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\BlazorApp.pdb
 C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\ref\BlazorApp.dll
-C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\ViewPosts.razor.rz.scp.css
-C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
-C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll.gz
-C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
-C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\nTjGOrx5.gz
-C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\rcnz0tSL.gz
-C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\oM1O29mx.gz
-C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\kqa4UowL.gz
-C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\lZTp4l1M.gz
-C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\3reu3+3z.gz
-C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\build-gz\+pa+hBcz.gz
-C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\CreatePostTest.razor.rz.scp.css
-C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\Profile.razor.rz.scp.css
-C:\Users\frane\RiderProjects\Assignment1-2\BlazorApp\obj\Debug\net6.0\scopedcss\Pages\LogIn.razor.rz.scp.css

@@ -106,28 +106,6 @@
 .button-row[b-c956fem5qt]{
     margin-top: 15px;
 }
-/* /Pages/Profile.razor.rz.scp.css */
-.card[b-i9n0qbq691], .post-card[b-i9n0qbq691], .user-card[b-i9n0qbq691]{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 250px;
-    padding: 25px;
-    text-align: center;
-    margin: auto;
-    margin-top: 50px;
-    border-radius: 15px;
-}
-
-.user-posts[b-i9n0qbq691]{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 250px;
-    padding: 25px;
-    text-align: center;
-    margin: auto;
-    margin-top: 50px;
-    border-radius: 15px;
-}
 /* /Pages/ViewPosts.razor.rz.scp.css */
 .filter-bar[b-g0u87luc50] {
     border: 1px solid #ccc;
