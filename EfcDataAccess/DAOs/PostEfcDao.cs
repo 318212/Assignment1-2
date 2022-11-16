@@ -1,4 +1,6 @@
 ﻿using Application.DaoInterfaces;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Shared.DTOs;
 using Shared.Models;
 
@@ -13,14 +15,42 @@ public class PostEfcDao : IPostDao
         this.context = context;
     }
     
-    public Task<Post> CreateAsync(Post post)
+    public async Task<Post> CreateAsync(Post post)
     {
-        throw new NotImplementedException();
+        EntityEntry<Post> added = await context.Posts.AddAsync(post);
+        await context.SaveChangesAsync();
+        return added.Entity;
     }
 
-    public Task<IEnumerable<Post>> GetAsync(SearchPostParametersDto searchParameters)
+    public async Task<IEnumerable<Post>> GetAsync(SearchPostParametersDto searchParameters)
     {
-        throw new NotImplementedException();
+        IQueryable<Post> query = context.Posts.Include(post => post.owner).AsQueryable();
+
+        if (!string.IsNullOrEmpty(searchParameters.Username))
+        {
+            query = query.Where(post => 
+                post.owner.UserName.ToLower().Equals(searchParameters.Username.ToLower()));
+        }
+
+        if (searchParameters.UserId != null)
+        {
+            query = query.Where(t => t.owner.Id == searchParameters.UserId);
+        }
+
+        if (!string.IsNullOrEmpty(searchParameters.TitleContains))
+        {
+            query = query.Where(t => 
+                t.Title.ToLower().Contains(searchParameters.TitleContains.ToLower()));
+        }
+
+        if (!string.IsNullOrEmpty(searchParameters.ContentContains))
+        {
+            query = query.Where(t => 
+                t.Content.ToLower().Contains(searchParameters.ContentContains.ToLower()));
+        }
+
+        List<Post> result = await query.ToListAsync();
+        return result;
     }
 
     public Task UpdateAsync(Post post)
