@@ -6,6 +6,13 @@ namespace EfcDataAccess.DAOs;
 
 public class PostEfcDao : IPostDao
 {
+    private readonly PostContext context;
+
+    public PostEfcDao(PostContext context)
+    {
+        this.context = context;
+    }
+    
     public Task<Post> CreateAsync(Post post)
     {
         throw new NotImplementedException();

@@ -6,6 +6,13 @@ namespace EfcDataAccess.DAOs;
 
 public class UserEfcDao : IUserDao
 {
+    private readonly PostContext context;
+
+    public UserEfcDao(PostContext context)
+    {
+        this.context = context;
+    }
+
     public Task<User> CreateAsync(User user)
     {
         throw new NotImplementedException();
