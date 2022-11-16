@@ -23,10 +23,8 @@ C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\bin\Debug\net6.0\Swas
 C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\bin\Debug\net6.0\Application.dll
 C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\bin\Debug\net6.0\Domain.dll
-C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\bin\Debug\net6.0\FileData.dll
 C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\bin\Debug\net6.0\Application.pdb
 C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\bin\Debug\net6.0\Domain.pdb
-C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\bin\Debug\net6.0\FileData.pdb
 C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.AssemblyReference.cache
 C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\obj\Debug\net6.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfoInputs.cache
@@ -44,3 +42,5 @@ C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\obj\Debug\net6.0\WebA
 C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\obj\Debug\net6.0\WebApplication1.genruntimeconfig.cache
 C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\obj\Debug\net6.0\ref\WebApplication1.dll
 C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\bin\Debug\net6.0\data.json
+C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\bin\Debug\net6.0\EfcDataAccess.dll
+C:\Users\frane\RiderProjects\Assignment1-2\WebApplication1\bin\Debug\net6.0\EfcDataAccess.pdb

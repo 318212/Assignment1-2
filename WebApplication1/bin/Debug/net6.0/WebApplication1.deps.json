@@ -10,7 +10,7 @@
         "dependencies": {
           "Application": "1.0.0",
           "Domain": "1.0.0",
-          "FileData": "1.0.0",
+          "EfcDataAccess": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.8",
           "Microsoft.AspNetCore.Components.Authorization": "6.0.10",
           "Swashbuckle.AspNetCore": "6.2.3"
@@ -227,12 +227,12 @@
           "Domain.dll": {}
         }
       },
-      "FileData/1.0.0": {
+      "EfcDataAccess/1.0.0": {
         "dependencies": {
           "Application": "1.0.0"
         },
         "runtime": {
-          "FileData.dll": {}
+          "EfcDataAccess.dll": {}
         }
       }
     }
@@ -428,7 +428,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "FileData/1.0.0": {
+    "EfcDataAccess/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

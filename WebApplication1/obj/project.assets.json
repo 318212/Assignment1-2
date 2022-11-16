@@ -410,17 +410,17 @@
           "bin/placeholder/Domain.dll": {}
         }
       },
-      "FileData/1.0.0": {
+      "EfcDataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Application": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/FileData.dll": {}
+          "bin/placeholder/EfcDataAccess.dll": {}
         },
         "runtime": {
-          "bin/placeholder/FileData.dll": {}
+          "bin/placeholder/EfcDataAccess.dll": {}
         }
       }
     }
@@ -1053,17 +1053,17 @@
       "path": "../Domain/Domain.csproj",
       "msbuildProject": "../Domain/Domain.csproj"
     },
-    "FileData/1.0.0": {
+    "EfcDataAccess/1.0.0": {
       "type": "project",
-      "path": "../FileData/FileData.csproj",
-      "msbuildProject": "../FileData/FileData.csproj"
+      "path": "../EfcDataAccess/EfcDataAccess.csproj",
+      "msbuildProject": "../EfcDataAccess/EfcDataAccess.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Application >= 1.0.0",
       "Domain >= 1.0.0",
-      "FileData >= 1.0.0",
+      "EfcDataAccess >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.8",
       "Microsoft.AspNetCore.Components.Authorization >= 6.0.10",
       "Swashbuckle.AspNetCore >= 6.2.3"
@@ -1107,8 +1107,8 @@
             "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\Domain\\Domain.csproj": {
               "projectPath": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\FileData\\FileData.csproj": {
-              "projectPath": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\FileData\\FileData.csproj"
+            "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\EfcDataAccess\\EfcDataAccess.csproj": {
+              "projectPath": "C:\\Users\\frane\\RiderProjects\\Assignment1-2\\EfcDataAccess\\EfcDataAccess.csproj"
             }
           }
         }
