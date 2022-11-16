@@ -3,9 +3,9 @@
 public class Post
 {
     public int Id { get; set; }
-    public User owner { get; }
-    public string Title {get;}
-    public string Content {get;}
+    public User owner { get; private set; }
+    public string Title {get; private set; }
+    public string Content {get; private set; }
 
     public Post(User owner, string title, string content)
     {
@@ -14,4 +14,5 @@ public class Post
         Content = content;
 
     }
+    private Post(){}
 }
