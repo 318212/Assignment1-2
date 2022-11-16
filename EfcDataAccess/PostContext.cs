@@ -10,7 +10,7 @@ public class PostContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlite("Data Source = Post.db");
+        optionsBuilder.UseSqlite("Data Source = ../EfcDataAccess/Post.db");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
