@@ -83,7 +83,7 @@ public class PostEfcDao : IPostDao
     public async Task<IEnumerable<Post>> GetByUserIdAsync(int id)
     {
         IQueryable<Post> query = context.Posts.Include(post => post.owner).AsQueryable();
-        query = query.Where(post => post.Id == post.owner.Id);
+        query = query.Where(post => id == post.owner.Id);
         List<Post> result = await query.ToListAsync();
         return result;
     }
