@@ -80,8 +80,11 @@ public class PostEfcDao : IPostDao
         await context.SaveChangesAsync();
     }
 
-    public Task<IEnumerable<Post>> GetByUserIdAsync(int id)
+    public async Task<IEnumerable<Post>> GetByUserIdAsync(int id)
     {
-        throw new NotImplementedException();
+        IQueryable<Post> query = context.Posts.Include(post => post.owner).AsQueryable();
+        query = query.Where(post => post.Id == post.owner.Id);
+        List<Post> result = await query.ToListAsync();
+        return result;
     }
 }
